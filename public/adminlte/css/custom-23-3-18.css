@@ -1,0 +1,111 @@
+
+.imgtitcls { 
+    text-align: center; }
+
+.label {margin-right:5px;margin-bottom:5px !important;display:inline-block;} #wrapper {
+    position: relative;
+}
+
+
+.main-header .sidebar-toggle:before { content: none; }
+
+.clseducation .tab-content { width: 100%; display: inline-block; }
+.clseducation .admiscls { margin-left: 25%; width: 50%; display: inline-block; border-color: #ddd; margin-bottom: 20px; background-color: #fff; border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); box-shadow: 0 1px 1px rgba(0,0,0,.05); padding: 15px; margin-top: 15px; }
+.admiscls table { table-layout: fixed; width: 100%; }
+.admiscls table td input[type="text"] { width: 40%; margin: 0 2% 10px 0; float: left; padding: 6px 10px; border-radius: 3px;
+    border: 1px solid #aaa; }
+.admiscls table td textarea { width: 40%; min-width: 40%; max-width: 40%; margin: 0 2% 10px 0; float: left; padding: 6px 10px; border-radius: 3px;
+    border: 1px solid #aaa; min-height: 25px; height: 34px; }
+.admiscls table td input.addnew { margin-bottom: 10px; }
+.admiscls table td input.remove { padding: 5px 15px; background-color: #3c8cbc; border: 2px solid #3c8cbc; color: #fff; text-transform: capitalize;
+    border-radius: 4px; font-weight: 600; }
+
+
+.clseducation .campuscls { margin-left: 25%; width: 50%; display: inline-block; border-color: #ddd; margin-bottom: 20px; background-color: #fff; border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); box-shadow: 0 1px 1px rgba(0,0,0,.05); padding: 15px; margin-top: 15px; }
+.campuscls table { table-layout: fixed; width: 100%; }
+.campuscls table td input[type="text"] { width: 49%; margin: 0 2% 10px 0; float: left; padding: 6px 10px; border-radius: 3px;
+    border: 1px solid #aaa; }
+.campuscls table td textarea { width: 49%; min-width: 49%; max-width: 49%; margin: 0 0 10px 0; float: left; padding: 6px 10px; border-radius: 3px;
+    border: 1px solid #aaa; min-height: 25px; height: 34px; }
+.campuscls table td input.addnew { margin-bottom: 10px; }
+.campuscls table td input.remove { padding: 5px 15px; background-color: #3c8cbc; border: 2px solid #3c8cbc; color: #fff; text-transform: capitalize;
+    border-radius: 4px; font-weight: 600; float: right; }
+.campuscls table td input[type="file"] { float: left; width: 41%; margin: 0 2% 10px 0px; padding: 5px 10px; border: 1px solid #ddd; }
+
+.clsmenuimg .form-group { border-bottom: 1px solid #ddd; float: left; width: 100%; padding: 10px 0; margin: 0; }
+.clsmenuimg .form-group label { float: left; width: 100%; }
+.clsmenuimg .form-group input[type="file"] { float: left; width: 80%; padding: 7px; border: 1px solid #ddd; border-radius: 3px; margin: 6px 0; }
+.clsmenuimg .form-group img { float: right; margin: 0 4%; }
+
+#home .form-group input[type="file"] { padding: 7px; border: 1px solid #ddd; display: inline-block; border-radius: 3px; }
+
+#home .form-group label[for="Name"] { float: left; width: 100%; }
+#home .form-group img { float: right; margin-top: -10px; }
+
+/*.checkdata input[type="checkbox"] { margin: 5px 0 0 10px; float: left; }
+.checkdata label { float: left; }
+.checkdata .checkbox { float: left; width: 100%; }
+.checkdata .checkbox input[type="checkbox"] { margin: 5px 0 0; left: 0; }*/
+
+.campuscls table td label.newlbl { float: left; margin: 7px 10px 0 0; }
+table.dataTable td > a { float: left; margin-right: 15px; background-color: #3c8dbc; color: #fff; box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    padding: 7px 15px; border-radius: 4px; }
+
+table.table.table-bordered.table-striped.datatable.dt-select.dataTable.no-footer tr th:last-child { min-width: 110px; }
+ul.nav.newuldash li { float: left; width: calc(100% / 6 - 20px); width: -webkit-calc(100% / 6 - 20px); text-align: center; margin: 10px;
+    background-color: #ccc; border-radius: 4px; position: relative; }
+
+ul.nav.newuldash li:nth-child(1) { background-color: #6fb3e0; }
+ul.nav.newuldash li:nth-child(2) { background-color: #9abc32; }
+ul.nav.newuldash li:nth-child(3) { background-color: #e8b110; }
+ul.nav.newuldash li:nth-child(4) { background-color: #d53f40; }
+ul.nav.newuldash li:nth-child(5n) { background-color: #6fb3e0; }
+ul.nav.newuldash li:nth-child(6n) { background-color: #9abc32; }
+ul.nav.newuldash li:nth-child(7n) { background-color: #e8b110; }
+ul.nav.newuldash li:nth-child(8n) { background-color: #d53f40; }
+ul.nav.newuldash li:nth-child(9n) { background-color: #6fb3e0; }
+ul.nav.newuldash li:nth-child(10n) { background-color: #9abc32; }
+ul.nav.newuldash li:nth-child(11n) { background-color: #e8b110; }
+ul.nav.newuldash li:nth-child(13n) { background-color: #d53f40; }
+ul.nav.newuldash li:nth-child(17n) { background-color: #6fb3e0; }
+ul.nav.newuldash li:nth-child(19n) { background-color: #9abc32; }
+ul.nav.newuldash li:nth-child(23n) { background-color: #e8b110; }
+
+ul.nav.newuldash li a { float: left; width: 100%; }
+ul.nav.newuldash li a:hover { background-color: transparent; }
+ul.nav.newuldash li a i.fa { color: #fff; font-size: 50px; }
+ul.nav.newuldash li a p { color: #fff; font-size: 16px; font-weight: 600; margin: 5px 0 5px; }
+ul.nav.newuldash li a span.clscount { position: absolute; color: #fff; font-size: 25px; top: 25%; right: 19%; font-weight: bold; }
+
+
+.programcrcls form .form-group { width: 100%; float: left; }
+.programcrcls form label { float: left; margin: 0 15px 0 0; }
+.programcrcls form .abovebtn-right { width: auto !important; }
+.programcrcls form .abovebtn-right .col-md-12 { padding: 0; }
+.programcrcls form .form-group .col-md-8 { text-align: left; padding: 0; margin: 30px 0 0; }
+.programcrcls form .form-group select.field { padding: 5px 10px; border-radius: 3px; width: 250px; border: 1px solid #d2d6de; }
+.programcrcls form input[type="text"] { float: left; width: 250px; border-radius: 3px; }
+.programcrcls form textarea { float: left; width: 250px; min-width: 250px; max-width: 250px; border-radius: 3px; }
+.programcrcls form label { float: left; margin: 0 15px 0 0; min-width: 100px; }
+.programcrcls form .abovebtn-right { width: auto !important; margin: 0 0 40px; }
+.programcrcls form .panel-heading { padding: 0; }
+
+.progrmslistcls { position: relative; }
+.progrmslistcls .srchprocls { position: absolute; left: 280px; z-index: 9999; }
+.progrmslistcls .srchprocls select { padding: 6px 10px; float: left; border: 1px solid #ddd; background-color: transparent; line-height: 1;
+    height: 35px; }
+.progrmslistcls .prolisttabcls div.dataTables_filter.pull-left input[type="search"] { padding: 7px 10px; line-height: 1; border: 1px solid #ddd;
+    border-radius: 3px; height: 35px; }
+.progrmslistcls .prolisttabcls { float: left; width: 100%; }
+.progrmslistcls .prolisttabcls select { padding: 5px 3px; border: 1px solid #ddd; border-radius: 3px; height: 35px; }
+.progrmslistcls .prolisttabcls .dt-buttons.pull-right { margin-bottom: 15px; }
+.progrmslistcls .srchprocls button.btn.btn-default { height: 35px; }
+
+.progrmslistcls .prolisttabcls .dt-buttons.pull-right a { height: 35px; padding: 7px 12px; }
+.alert.alert-info.admin-message { background-color: #ffebeb !important; padding: 8px 20px; border: none; border: 1px solid #D8000C; }
+.alert.alert-info.admin-message p { color: #D8000C; }
+
+ul.clsuledu li a { color: #fff; cursor: default; background-color: #3c8cbc; border: 1px solid #ddd; border-bottom-color: transparent;
+    padding: 10px 30px; font-weight: 600; }

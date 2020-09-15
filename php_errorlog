@@ -1,0 +1,46 @@
+[10-May-2019 11:43:15 UTC] PHP Warning:  Uncaught ErrorException: require(/home/prope504/public_html/routes/web.php): failed to open stream: No such file or directory in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/p...', '/home/prope504/...', 327, Array)
+#1 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): require()
+#2 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/prope504/...')
+#3 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/prope504/...')
+#4 /home/prope504/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/prope504/...')
+#5 /home/prope in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[10-May-2019 11:43:15 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/prope504/public_html/routes/web.php' (include_path='.:/usr/local/php73/pear') in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[10-May-2019 11:43:18 UTC] PHP Warning:  Uncaught ErrorException: require(/home/prope504/public_html/routes/web.php): failed to open stream: No such file or directory in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/p...', '/home/prope504/...', 327, Array)
+#1 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): require()
+#2 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/prope504/...')
+#3 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/prope504/...')
+#4 /home/prope504/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/prope504/...')
+#5 /home/prope in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[10-May-2019 11:43:18 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/prope504/public_html/routes/web.php' (include_path='.:/usr/local/php73/pear') in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[10-May-2019 11:43:30 UTC] PHP Warning:  Uncaught ErrorException: require(/home/prope504/public_html/routes/web.php): failed to open stream: No such file or directory in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/p...', '/home/prope504/...', 327, Array)
+#1 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): require()
+#2 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/prope504/...')
+#3 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/prope504/...')
+#4 /home/prope504/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/prope504/...')
+#5 /home/prope in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[10-May-2019 11:43:30 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/prope504/public_html/routes/web.php' (include_path='.:/usr/local/php73/pear') in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[11-May-2019 06:34:58 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/prope504/public_html/app/Http/Controllers/Web/WebserviceController.php on line 34
+[11-May-2019 06:35:22 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/prope504/public_html/app/Http/Controllers/Web/WebserviceController.php on line 34
+[11-May-2019 06:35:53 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/prope504/public_html/app/Http/Controllers/Web/WebserviceController.php on line 34
+[11-May-2019 06:36:20 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/prope504/public_html/app/Http/Controllers/Web/WebserviceController.php on line 34
+[14-May-2019 00:40:31 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/prope504/public_html/../bootstrap/autoload.php' (include_path='.:/usr/local/php71/pear') in /home/prope504/public_html/index.php on line 22
+[14-May-2019 00:41:46 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/prope504/public_html/../bootstrap/autoload.php' (include_path='.:/usr/local/php71/pear') in /home/prope504/public_html/index.php on line 22
+[14-May-2019 00:41:50 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/prope504/public_html/../bootstrap/autoload.php' (include_path='.:/usr/local/php71/pear') in /home/prope504/public_html/index.php on line 22
+[14-May-2019 00:41:51 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/prope504/public_html/../bootstrap/autoload.php' (include_path='.:/usr/local/php71/pear') in /home/prope504/public_html/index.php on line 22
+[14-May-2019 00:42:52 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/prope504/public_html/../bootstrap/autoload.php' (include_path='.:/usr/local/php71/pear') in /home/prope504/public_html/index.php on line 22
+[14-May-2019 00:43:54 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/prope504/public_html/../bootstrap/app.php' (include_path='.:/usr/local/php71/pear') in /home/prope504/public_html/index.php on line 36
+[14-May-2019 11:49:21 UTC] PHP Warning:  Uncaught ErrorException: require(/home/prope504/public_html/routes/web.php): failed to open stream: No such file or directory in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/p...', '/home/prope504/...', 327, Array)
+#1 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): require()
+#2 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/prope504/...')
+#3 /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/prope504/...')
+#4 /home/prope504/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/prope504/...')
+#5 /home/prope in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[14-May-2019 11:49:21 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/prope504/public_html/routes/web.php' (include_path='.:/usr/local/php71/pear') in /home/prope504/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
